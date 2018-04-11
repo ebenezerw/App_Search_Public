@@ -36,7 +36,6 @@ $(document).ready(() => {
               // "<td>" + "<a href="+value.trackViewUrl+">" + "Click Here" + "</a>" + "</td>" +
               "<td>" + value.trackViewUrl + "</td>" +
               "<td>" + value.minimumOsVersion + "</td>" +
-              "<td>" + value.contentAdvisoryRating + "</td>" +
               "<td>" + value.version + "</td>" +
           "</tr>"
         )
