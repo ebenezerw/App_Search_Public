@@ -29,13 +29,15 @@ $(document).ready(() => {
               "<td>" + value.sellerName + "</td>" +
               "<td>" + value.bundleId + "</td>" +
               "<td>" + value.trackId + "</td>" +
-              "<td>" + value.genres + "</td>" +
+              "<td>" + value.primaryGenreName + "</td>" +
               "<td>" + value.currentVersionReleaseDate.slice(0,-10) + "</td>" +
               "<td>" + value.averageUserRating + "</td>" +
               "<td>" + value.trackContentRating + "</td>" +
               // "<td>" + "<a href="+value.trackViewUrl+">" + "Click Here" + "</a>" + "</td>" +
               "<td>" + value.trackViewUrl + "</td>" +
               "<td>" + value.minimumOsVersion + "</td>" +
+              "<td>" + value.contentAdvisoryRating + "</td>" +
+              "<td>" + value.version + "</td>" +
           "</tr>"
         )
       })
